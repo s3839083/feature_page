@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title feature page
+    link(href='./app.css', rel='stylesheet', type='text/css')
+  body
+    #feature_page
+      .object
+        img#map_background(src='map_background.png' width='100%')
+        img#wave1(src='wave1.png' width='17%')
+        img#wave2(src='wave2.png' width='17%')
+        img#wave3(src='wave3.png' width='17%')
+        img#boat(src='boat.png' width='17%')
+        img#path(src='path.png' width='85%')
+        img#compass(src='compass.png' width='17%')
+        img#game_name(src='game_name.png' width='24%')
+      #area
+        img#area1(src='area1.png' width='23%' onmouseover="mouseover('area1', 'light1', 'coffee_intro')" onmouseout="mouseout('area1', 'light1', 'coffee_intro')")
+        img#area2(src='area2.png' width='23%' onmouseover="mouseover('area2','light2','DIY_intro')" onmouseout="mouseout('area2','light2','DIY_intro')")
+        img#area3(src='area3.png' width='23%' onmouseover="mouseover('area3','light3','interactive')" onmouseout="mouseout('area3','light3','interactive')")
+        img#area4(src='area4.png' width='23%' onmouseover="mouseover('area4','light4','experience')" onmouseout="mouseout('area4','light4','experience')")
+        img#area5(src='area5.png' width='37%' onmouseover="mouseover('area5','light5','Optometry')" onmouseout="mouseout('area5','light5','Optometry')")
+      #light_area
+        img#dark_background(src='dark_background.png' width='100%')
+        img#light1(src='light1.png' width='23%')
+        img#light2(src='light3.png' width='23%')
+        img#light3(src='light2.png' width='23%')
+        img#light4(src='light4.png' width='23%')
+        img#light5(src='light5.png' width='37%')
+        img#DIY_intro(src='DIY.png' width='35%')
+        img#coffee_intro(src='coffee.png' width='35%')
+        img#experience(src='experience.png' width='35%')
+        img#interactive(src='interactive.png' width='35%')
+        img#Optometry(src='Optometry.png' width='35%')
+
+  script(src='app.js')
+
